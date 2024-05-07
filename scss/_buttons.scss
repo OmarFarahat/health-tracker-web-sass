@@ -1,0 +1,35 @@
+%buttonsshared{
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+}
+.buttonaccess {
+    @extend %buttonsshared;
+	background-color: $primarybuttonbackgroundcolor;
+	width: 100%;
+	color: blueviolet;
+	height: 40px;
+}
+.appstore {
+    @extend %buttonsshared;
+	background-color: $primarybuttonbackgroundcolor;
+	color: $greenbuttonbackgroundcolor;
+	height: 40px;
+	border-color: #51A837;
+	border-width: thin;
+}
+.android {
+    @extend %buttonsshared;
+	background-color: $greenbuttonbackgroundcolor;
+	color: $primarybuttonbackgroundcolor;
+	height: 40px;
+}
+.buttonweb {
+    @extend %buttonsshared;
+	background-color: $primarybuttonbackgroundcolor;
+	width: 100%;
+	color: black;
+	max-width: 80px;
+}
+.signinbutton {
+	background-color: #6578DF;
+}

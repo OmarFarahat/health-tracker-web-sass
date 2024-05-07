@@ -1,0 +1,25 @@
+.card {
+	border: none;
+	box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.correct {
+	color: blueviolet;
+}
+.manholdingphone {
+	max-height: 300px;
+	width: 100%;
+}
+footer {
+	h1 {
+		display: none;
+	}
+}
+.secondarytext {
+color:$secondarytextcolor;
+}
+.hyphen {
+	color: rgba(128, 128, 128, 0.096);
+}
+.msg {
+	height: 150px;
+}

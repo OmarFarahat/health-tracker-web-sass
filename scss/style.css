@@ -1,0 +1,188 @@
+.card {
+  border: none;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.correct {
+  color: blueviolet;
+}
+
+.manholdingphone {
+  max-height: 300px;
+  width: 100%;
+}
+
+footer h1 {
+  display: none;
+}
+
+.secondarytext {
+  color: rgba(143, 142, 142, 0.699);
+}
+
+.hyphen {
+  color: rgba(128, 128, 128, 0.096);
+}
+
+.msg {
+  height: 150px;
+}
+
+.buttonweb, .android, .appstore, .buttonaccess {
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+.buttonaccess {
+  background-color: white;
+  width: 100%;
+  color: blueviolet;
+  height: 40px;
+}
+
+.appstore {
+  background-color: white;
+  color: #51A837;
+  height: 40px;
+  border-color: #51A837;
+  border-width: thin;
+}
+
+.android {
+  background-color: #51A837;
+  color: white;
+  height: 40px;
+}
+
+.buttonweb {
+  background-color: white;
+  width: 100%;
+  color: black;
+  max-width: 80px;
+}
+
+.signinbutton {
+  background-color: #6578DF;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif, Arial, Helvetica;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(128, 128, 128, 0.699);
+}
+
+#GetApp {
+  position: relative;
+  background-image: url("/src/assets/pexels-cottonbro-5053835.jpg");
+  background-size: cover;
+  min-height: 350px;
+}
+#GetApp::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+#GetApp > * {
+  position: relative;
+  z-index: 2;
+}
+#GetApp button {
+  background-color: #51A837;
+  color: white;
+  min-height: 40px;
+  min-width: 180px;
+}
+#GetApp h6 {
+  font-weight: 320;
+  color: rgba(245, 245, 245, 0.884);
+}
+
+#GiveFeedback form {
+  border: none;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+#GiveFeedback button {
+  min-height: 45px;
+  min-width: 120px;
+}
+
+#AppBenefits h3 {
+  margin-top: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#AppStatistics h3 {
+  display: none;
+}
+
+#AppImages h3 {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5rem;
+  font-stretch: ultra-expanded;
+}
+
+#AppPlans h3 {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+#AppPlans h4, p {
+  font-weight: 500;
+}
+
+#ActivityGoals h3 {
+  font-weight: 550;
+}
+#ActivityGoals p {
+  font-weight: 400;
+}
+
+#OurTeam .card {
+  width: 90%;
+}
+#OurTeam img {
+  margin-top: -2.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  max-height: 100px;
+  max-width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#UsersFeedback img {
+  border-radius: 50%;
+  max-height: 60px;
+  width: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#UsersFeedback h5 {
+  margin-bottom: 0.2px;
+}
+
+nav {
+  background-color: white;
+}
+nav h2 {
+  display: none;
+}
+nav button {
+  min-width: 120px;
+  border-width: thick;
+}
+nav a {
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
